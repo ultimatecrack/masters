@@ -1,0 +1,13 @@
+This is where you are gonna learn how to deploy a machine learning model with a web application.
+
+This is the very simple web application, that I have created using PHP and javascript. Some of those codes are unnecessary.
+But I want you to figure it out.
+
+Then I have written code for NLP sentiment analysis to classify the review as positive or negative in python and from there I've taken the trained object of corpus and classifiier in file format using joblib of sklearn. Here I've used catboost classifier. But you can choose any classifier accordig to your, when you are buiding your applicatio. For this application you have to install catboost.
+
+Then I used Fastapi and uvicorn in order to deploy my machine learnnig model and that gonna be up in 127.0.0.1:8000, where as my php web application will run on 127.0.0.1 as I am using the xampp server. Now you are gonna get error for CORS (Cross Origin Resource Sharing) issue. So for that I've allowed to share resource to specific urls. You can remove some of them according to your need.
+
+Now when you give positive or negative review then different message gonna be displayed for each of the them. If you are not getting correct prediction some time then don't worry. Because this model is trained on very few data. You can create your NLP sentiment analysis classifier using large dataset.
+
+Follow the link to create NLP sentiment analysis classifier - https://github.com/ultimatecrack/machine-learning/blob/master/practice/NLP/
+Tutorial for saving object as file - https://github.com/ultimatecrack/machine-learning/tree/master/practice/Model%20saving%20for%20future%20use
