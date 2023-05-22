@@ -1,0 +1,6 @@
+mlflow<3,>=2.3
+cloudpickle==2.0.0
+lz4==4.0.2
+psutil==5.8.0
+scikit-learn==1.1.1
+typing-extensions==4.1.1
