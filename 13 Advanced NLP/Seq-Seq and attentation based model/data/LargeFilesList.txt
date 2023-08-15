@@ -1,0 +1,1 @@
+"D:\data science\masters\13 Advanced NLP\Seq-Seq and attentation based model\data\indic_languages_corpus.tar.gz" 
